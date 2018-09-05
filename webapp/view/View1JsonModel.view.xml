@@ -1,0 +1,20 @@
+<mvc:View controllerName="NamespaceJSONModel.PnameJsonModel.controller.View1JsonModel" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<!--	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content></content>
+			</Page>
+		</pages>
+	</App>-->
+	
+	<!--My codeeeeee powww-->
+   <Button
+      text="Say Hello"
+      press="onShowHello"/>
+   <Input
+      value="{/recipient/name}"
+      description="Hello {/recipient/name}"
+      valueLiveUpdate="true"
+      width="60%"/>	
+</mvc:View>
